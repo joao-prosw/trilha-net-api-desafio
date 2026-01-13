@@ -101,7 +101,6 @@ namespace TrilhaApiDesafio.Controllers
 
             _context.Tarefas.Remove(tarefaBanco);
             _context.SaveChanges();
-            //teste
             // TODO: Remover a tarefa encontrada através do EF e salvar as mudanças (save changes)
             return NoContent();
         }
